@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a1ea782-7ea7-4b0e-a9d2-37b2a0f35074" name="Default Changelist" comment="" />
+    <list default="true" id="1a1ea782-7ea7-4b0e-a9d2-37b2a0f35074" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/BankTeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/Bet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/BettingRound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/GamblerCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/GamblingAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/GamblingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/IBetLoggingAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/IBetTokenAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/casino/IGamblingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/casino/BankTellerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/casino/BetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/casino/BettingRoundTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/casino/GamblerCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/casino/GamblingAuthorityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/casino/GamblingMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/casino/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +31,20 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VyUwiOfmg20fQd4pBFUQ56IfQ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +54,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/casino" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="casino" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\TCI\Casino\src\main\java\casino" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -48,11 +91,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578225068876</updated>
-      <workItem from="1578225072770" duration="29000" />
+      <workItem from="1578225072770" duration="684000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="601" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578225709565">
+      <screen x="70" y="0" width="1530" height="900" />
+    </state>
+    <state x="601" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/70.0.1530.900@70.0.1530.900" timestamp="1578225709565" />
   </component>
 </project>
