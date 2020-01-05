@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1ea782-7ea7-4b0e-a9d2-37b2a0f35074" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/BankTeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/Bet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/BettingRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/GamblerCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/GamblingAuthority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/GamblingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/IBetLoggingAuthority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/IBetTokenAuthority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/casino/IGamblingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/casino/BankTellerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/casino/BetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/casino/BettingRoundTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/casino/GamblerCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/casino/GamblingAuthorityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/casino/GamblingMachineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/casino/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578225068876</updated>
       <workItem from="1578225072770" duration="684000" />
+      <workItem from="1578233652946" duration="499000" />
     </task>
     <servers />
   </component>
@@ -99,6 +85,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="531" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1578233666943">
+      <screen x="70" y="0" width="1530" height="900" />
+    </state>
+    <state x="531" y="276" key="com.intellij.ide.util.TipDialog/70.0.1530.900@70.0.1530.900" timestamp="1578233666943" />
     <state x="601" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578225709565">
       <screen x="70" y="0" width="1530" height="900" />
     </state>
