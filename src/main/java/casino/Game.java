@@ -8,9 +8,20 @@ public class Game {
 	private GamblingAuthority gamblingAuthority;
 	private BettingRound currentBetRound;
 	private Map<Bet, String> listOfBets;
+	private int nrOfWinNumber;
+
 
 	/**
-	 * 
+	 * constructe of the betting round
+	 * @param gamblingAuthority
+	 */
+	public Game(GamblingAuthority gamblingAuthority, int nrOfWinNumber) {
+		// TODO - implement Game.Game
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 *Create the bettinground method, each game has a bettinground
 	 * @param listOfBets
 	 */
 	public BettingRound createBetRound(Map<Bet, String> listOfBets) {
@@ -19,24 +30,16 @@ public class Game {
 	}
 
 	/**
-	 * 
-	 * @param gamblingAuthority
+	 * it should check the token status.To be able to start a betting round, it needs to get a unique token from gaming authority by providing an unique betting around ID
 	 */
-	public Game(GamblingAuthority gamblingAuthority) {
-		// TODO - implement Game.Game
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * it should check the token status.
-	 */
-	public void requestToken() {
+	public void requestToken(Integer bettingroundID) {
 		// TODO - implement Game.requestToken
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * it should check the token status.
+	 * this method also logging the betting round with timestamp
 	 * @param betRound
 	 */
 	public void requestWinNumber(BettingRound betRound) {
@@ -52,6 +55,12 @@ public class Game {
 		// TODO - implement Game.setWinNumber
 		throw new UnsupportedOperationException();
 	}
+
+	/**
+	 * updated the credit, how much amount has been won, but through bankteller
+     * connected with bankteller
+	 *this method also logging the with timestamp
+	 */
 
 	public void updateOutValueOfTheBet() {
 		// TODO - implement Game.updateOutValueOfTheBet
