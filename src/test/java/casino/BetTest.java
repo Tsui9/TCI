@@ -3,15 +3,31 @@ package casino;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static org.mockito.Matchers.doubleThat;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+import static org.mockito.internal.verification.VerificationModeFactory.times;
+
 public class BetTest {
+private Bet bet;
 
     @Test
     /**
      * constructe has double InValue, double selectedNumber, string cardinfo
      */
-    public void Bet_IsInitialized_succeed()
+    public void Bet_Setup_succeed()
     {
+        //arrange
+        double invalue=5.5;
+        int selectNr=8;
+        String info="hello";
 
+        //act
+        bet=new Bet(invalue,selectNr,info);
+
+        //assert
+        Assert.assertNotNull(bet);
     }
 
     @Test

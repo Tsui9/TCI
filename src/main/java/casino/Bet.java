@@ -19,9 +19,11 @@ public class Bet {
 	 * @param selectedNumber
 	 * @param cardInfo
 	 */
-	public Bet(String inValue, String selectedNumber, String cardInfo){
-		// TODO - implement Bet.Bet
-		throw new UnsupportedOperationException();
+	public Bet(double inValue, int selectedNumber, String cardInfo){
+		this.inValue=inValue;
+		this.selecedNumber=selectedNumber;
+		this.cardInformation=cardInfo;
+
 	}
 
 	/**
