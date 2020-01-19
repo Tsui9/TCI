@@ -7,8 +7,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/casino/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/casino/Bet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/casino/BetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/casino/BetTest.java" afterDir="false" />
     </list>
@@ -22,6 +22,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,7 +59,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../选修Semester6/TCI/tci111" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -74,27 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.BetTest.Bet_Setup_succeed">
-    <configuration name="BetTest.Bet_IsInitialized_succeed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;casino.BetTest.Bet_IsInitialized_succeed&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BetTest.GetInValue_Return_expectValue">
     <configuration name="BetTest.Bet_Setup_succeed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -154,12 +144,45 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="BetTest.Bet_Setup_succeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Casino.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="casino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="casino" />
+      <option name="MAIN_CLASS_NAME" value="casino.BetTest" />
+      <option name="METHOD_NAME" value="Bet_Setup_succeed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BetTest.GetInValue_Return_expectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Casino.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="casino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="casino" />
+      <option name="MAIN_CLASS_NAME" value="casino.BetTest" />
+      <option name="METHOD_NAME" value="GetInValue_Return_expectValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BetTest.Bet_Setup_succeed" />
+        <item itemvalue="JUnit.BetTest.GetInValue_Return_expectValue" />
+        <item itemvalue="JUnit.BetTest.Bet_Setup_succeed" />
         <item itemvalue="Gradle.BetTest.GetInValue_Return_expectValue" />
+        <item itemvalue="Gradle.BetTest.Bet_Setup_succeed" />
         <item itemvalue="Gradle.TCI [dependencies]" />
-        <item itemvalue="Gradle.BetTest.Bet_IsInitialized_succeed" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +200,7 @@
       <workItem from="1578233652946" duration="1297000" />
       <workItem from="1579445183617" duration="213000" />
       <workItem from="1579445593407" duration="63000" />
-      <workItem from="1579445718396" duration="3391000" />
+      <workItem from="1579445718396" duration="5200000" />
     </task>
     <servers />
   </component>

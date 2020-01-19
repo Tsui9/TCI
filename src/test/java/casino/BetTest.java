@@ -10,6 +10,7 @@ import static org.mockito.Mockito.when;
 import static org.mockito.internal.verification.VerificationModeFactory.times;
 
 public class BetTest {
+
 private Bet bet;
 
     @Test
@@ -19,12 +20,12 @@ private Bet bet;
     public void Bet_Setup_succeed()
     {
         //arrange
-        double invalue=5.5;
+        double inValue=5.5;
         int selectNr=8;
         String info="hello";
 
         //act
-        bet=new Bet(invalue,selectNr,info);
+        bet=new Bet(inValue,selectNr,info);
 
         //assert
         Assert.assertNotNull(bet);
@@ -34,12 +35,17 @@ private Bet bet;
     /**
      * person who betting an amount of money entered for a bet
      */
-    public void GetInValue_Return_expectValue()
+    public void GetInValue_Return_expectValue() throws NullPointerException
     {
-
-
+        //arrange
+        double expectValue=5.5;
+        double inValue=5.5;
+        int selectNr=8;
+        String info="hello";
+        //act
+        bet=new Bet(inValue,selectNr,info);
         //assert
-
+      Assert.assertEquals(expectValue,5.5,bet.getInValue());
     }
 
     /**

@@ -42,7 +42,6 @@ public class Bet {
 		this.inValue = inValue;
 	}
 
-
 	/**
 	 *Show the selectedNumber
 	 * @return
